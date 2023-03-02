@@ -1,3 +1,64 @@
+
+
 .header {
     background-color: #192F2D;
+}
+
+.wrapper {
+    max-width: 1342px;
+    margin: 0 auto;
+    padding: 0 30px;
+    min-height: 100%;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-buttons__wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    margin: 20px 0 20px 0;
+}
+
+.logo__img {
+    width: 50px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+.header__button {
+    background: transparent;
+    border: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.header__button:hover {
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.count-toys {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(9, 107, 110);
+    border: 2px solid white;
+    border-radius: 50px;
+
+}
+
+.count-toys__value {
+    position: absolute;
+    left: 18px;
+    top: 6px;
+    color: white;
+    font-size: 25px;
 }

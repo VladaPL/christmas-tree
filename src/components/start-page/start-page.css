@@ -1,5 +1,8 @@
 .start-page {
+    min-height: 1000px;
     color: white;
     background-color: #192F2D;
     font-size: 100px;
+    background-size: cover;
+    text-align: center;
 }

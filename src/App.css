@@ -1,1 +1,8 @@
-
+body {
+    font-size: 18px;
+    --main-color: rgb(9, 107, 110);
+    --main-bg-color: #192F2D;
+    --decor-color: darkgoldenrod;
+    --light-color: #FFFFFF;
+    --dark-color: #000000;
+}

@@ -16,8 +16,10 @@ export default MainBackground;
 const StartPage = () => {
     return (
         <div className="start-page" >
-            <div className="start-page__text">Помоги бабушке нарядить ёлку</div>
-            <div>ИГРА<br/>НОВОГОДНЯЯ ЁЛКА</div>
+            <div className="title-container">
+                <div className="title-container__text-help">Помоги бабушке нарядить ёлку</div>
+                <div className="title-container__text-game">ИГРА<br/>НОВОГОДНЯЯ ЁЛКА</div>
+            </div>
             <button>Начать</button>
         </div>
     );
